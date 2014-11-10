@@ -1,0 +1,21 @@
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            mbohun
+tagline:          "blog"
+description:      "Martin Bohun's github-page"
+url:              http://github.com/mbohun
+baseurl:          /
+
+author:
+  name:           "Martin Bohun"
+  url:            https://twitter.com/mbohun
+
+paginate:         6
+
+github:
+  repo:           https://github.com/mbohun/blog
