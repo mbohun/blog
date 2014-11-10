@@ -7,7 +7,7 @@ relative_permalinks: true
 # Setup
 title:            mbohun
 tagline:          "blog"
-description:      "Martin Bohun's github-page"
+description:      "blog"
 url:              http://github.com/mbohun
 baseurl:          /
 
