@@ -6,8 +6,8 @@ title: test ChemDoodleWeb
 <html>
   <head>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link rel="stylesheet" href="//ChemDoodleWeb/ChemDoodleWeb.css" type="text/css">
-    <script type="text/javascript" src="//ChemDoodleWeb/ChemDoodleWeb.js"></script>
+    <link rel="stylesheet" href="http://hub.chemdoodle.com/cwc/latest/ChemDoodleWeb.css" type="text/css">
+    <script type="text/javascript" src="http://hub.chemdoodle.com/cwc/latest/ChemDoodleWeb.js"></script>
   </head>
   <body>
     <script>
