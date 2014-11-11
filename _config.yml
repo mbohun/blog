@@ -8,8 +8,8 @@ relative_permalinks: true
 title:            mbohun
 tagline:          "blog"
 description:      "blog"
-url:              http://github.com/mbohun
-baseurl:          /
+url:              http://mbohun.github.io
+baseurl:          /blog
 
 author:
   name:           "Martin Bohun"
