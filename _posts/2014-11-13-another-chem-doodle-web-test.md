@@ -1,0 +1,27 @@
+---
+layout: post
+title: test chem doodle web
+---
+
+<link rel="stylesheet" href="http://hub.chemdoodle.com/cwc/latest/ChemDoodleWeb.css" type="text/css">
+<script type="text/javascript" src="http://hub.chemdoodle.com/cwc/latest/ChemDoodleWeb.js"></script>
+
+*This molecule* **that molecule** `another molecule`
+
+<div>
+  <script>
+    var viewACS = new ChemDoodle.ViewerCanvas('viewACS', 200, 200);
+    viewACS.specs.bonds_width_2D = 2.0;
+    viewACS.specs.bonds_saturationWidth_2D = .18;
+    viewACS.specs.bonds_hashSpacing_2D = 2.5;
+    viewACS.specs.atoms_font_size_2D = 10;
+    viewACS.specs.atoms_font_families_2D = ['Helvetica', 'Arial', 'sans-serif'];
+    viewACS.specs.atoms_displayTerminalCarbonLabels_2D = true;
+    var resveratrolMolFile = "\nMolDraw\n\n 17 18  0  0  0  0  0  0  0  0999 V2000\n    0.0000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.3700    0.2100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.3700    0.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.7400    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.7400    0.8500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.1100    0.2100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.7400    1.2800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.1100    0.6300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.4800   -0.0100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.8500    0.2000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.2200   -0.0200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.5900    0.1900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.2200   -0.4500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.9600   -0.0200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.5900   -0.6700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.9600   -0.4500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.3300   -0.6700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0  0  0  0\n  2  3  2  0  0  0  0\n  2  4  1  0  0  0  0\n  3  5  1  0  0  0  0\n  4  6  2  0  0  0  0\n  5  7  1  0  0  0  0\n  5  8  2  0  0  0  0\n  6  9  1  0  0  0  0\n  9 10  2  0  0  0  0\n 10 11  1  0  0  0  0\n 11 12  2  0  0  0  0\n 11 13  1  0  0  0  0\n 12 14  1  0  0  0  0\n 13 15  2  0  0  0  0\n 14 16  2  0  0  0  0\n 16 17  1  0  0  0  0\n  6  8  1  0  0  0  0\n 15 16  1  0  0  0  0\nM  END";
+
+    var resveratrol = ChemDoodle.readMOL(resveratrolMolFile);
+    resveratrol.scaleToAverageBondLength(14.4);
+    viewACS.loadMolecule(resveratrol);
+  </script>
+</div>
+
