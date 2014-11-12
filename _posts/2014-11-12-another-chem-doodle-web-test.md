@@ -3,9 +3,6 @@ layout: post
 title: test chem doodle web
 ---
 
-<link rel="stylesheet" href="http://hub.chemdoodle.com/cwc/latest/ChemDoodleWeb.css" type="text/css">
-<script type="text/javascript" src="http://hub.chemdoodle.com/cwc/latest/ChemDoodleWeb.js"></script>
-
 *This molecule* **that molecule** `another molecule`
 
 <div>
